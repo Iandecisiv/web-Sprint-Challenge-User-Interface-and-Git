@@ -76,8 +76,39 @@ header a {
     text-align: center;
 }
 
-header .img {
-    float: left;
+header {
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 10%;
+}
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+}
+
+.road {
+    display: block;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 25%;
+}
+header nav a {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 1%;
+    padding: 2%;
 }
 
 .top-content {
@@ -160,6 +191,8 @@ header .img {
 #ten {
     background-color: dodgerblue;
 }
+
+
 
 .bottom-content {
     display: flex;
