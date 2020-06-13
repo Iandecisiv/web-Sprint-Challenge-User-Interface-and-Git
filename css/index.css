@@ -71,6 +71,15 @@ p {
     margin: 0 auto;
 }
 
+header a {
+    display: inline-block;
+    text-align: center;
+}
+
+header .img {
+    float: left;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +119,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#one {
+    background-color: teal;
+}
+
+#two {
+    background-color: gold;
+}
+
+#three {
+    background-color: cadetblue;
+}
+
+#four {
+    background-color: coral;
+}
+
+#five {
+    background-color: crimson;
+}
+
+#six {
+    background-color: forestgreen;
+}
+
+#seven {
+    background-color: darkorchid;
+}
+
+#eight {
+    background-color: hotpink;
+}
+
+#nine {
+    background-color: indigo;
+}
+
+#ten {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
