@@ -104,6 +104,7 @@ header nav {
     width: 50%;
     height: 25%;
 }
+
 header nav a {
     width: 80%;
     display: flex;
@@ -122,6 +123,18 @@ header nav a:hover {
     margin: auto;
     padding: 2%;
     border-bottom: 1px dashed black;
+}
+
+#contact_us {
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Rubik', sans-serif;
+
 }
 
 .learn_more {
